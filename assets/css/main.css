@@ -2342,9 +2342,10 @@ Flame (Bright Orange)			#EC4E20
 
 /* Header */
 
+	/*This is used when the webpage's width > 1280 px*/	
 	#header {
 		text-align: center;
-		padding: 3em 0 0 0;
+		padding: 1.5em 0 0 0;
 		background-color: #fff;
 		background-image: url("images/bg02.png"), url("images/bg02.png"), url("images/bg01.png");
 		background-position: top left,					top left,					top left;
@@ -2353,12 +2354,12 @@ Flame (Bright Orange)			#EC4E20
 	}
 
 		#header h1 {
-			padding: 0 0 2.75em 0;
+			padding: 0 0 1em 0;
 			margin: 0;
 		}
 
 			#header h1 a {
-				font-size: 1.5em;
+				font-size: 1.25em;
 				letter-spacing: -0.025em;
 				border: 0;
 			}
@@ -2385,7 +2386,17 @@ Flame (Bright Orange)			#EC4E20
 		#nav > ul {
 			margin: 0;
 		}
-
+			
+			#nav > ul > h1 {
+				color: #fff;
+				float: left;
+				position: relative;
+				display: inline-block;
+				margin-left: 1em;
+				margin-right: 15em;
+				padding: 1.5em 0.5em 1.35em 0.5em;
+				border: 0;
+			}
 			#nav > ul > li {
 				position: relative;
 				display: inline-block;
@@ -2624,6 +2635,7 @@ Flame (Bright Orange)			#EC4E20
 
 /* Wide */
 
+
 	@media screen and (max-width: 1680px) {
 
 		/* Basic */
@@ -2642,6 +2654,7 @@ Flame (Bright Orange)			#EC4E20
 	}
 
 /* Normal */
+/* Used when resolution 980px < width <= 1280px */
 
 	@media screen and (max-width: 1280px) {
 
@@ -2668,13 +2681,14 @@ Flame (Bright Orange)			#EC4E20
 			}
 
 		/* Header */
+		/* Used when resolution <= 1280 px */
 
 			#header {
-				padding: 2em 0 0 0;
+				padding: 1.5em 0 0 0;
 			}
 
 				#header h1 {
-					padding: 0 0 1.75em 0;
+					padding: 0 0 1em 0;
 				}
 
 		/* Banner */
@@ -2752,12 +2766,12 @@ Flame (Bright Orange)			#EC4E20
 			}
 
 				header.major h2 {
-					font-size: 1.75em;
+					font-size: 1.25em;
 				}
 
 				header.major p {
 					top: -0.25em;
-					font-size: 1.25em;
+					font-size: 1em;
 				}
 
 		/* Box */
