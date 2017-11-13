@@ -40,6 +40,7 @@ Flame (Bright Orange)			#EC4E20
 
 	body {
 		line-height: 1;
+		overflow:hidden;
 	}
 
 	ol, ul {
