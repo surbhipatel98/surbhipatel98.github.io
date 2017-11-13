@@ -2345,7 +2345,6 @@ Flame (Bright Orange)			#EC4E20
 	/*This is used when the webpage's width > 1280 px*/	
 	#header {
 		text-align: center;
-		padding: 1.5em 0 0 0;
 		background-color: #fff;
 		background-image: url("images/bg02.png"), url("images/bg02.png"), url("images/bg01.png");
 		background-position: top left,					top left,					top left;
@@ -2390,10 +2389,9 @@ Flame (Bright Orange)			#EC4E20
 			#nav > ul > h1 {
 				color: #fff;
 				float: left;
-				position: relative;
+				position: sticky;
 				display: inline-block;
 				margin-left: 1em;
-				margin-right: 15em;
 				padding: 1.5em 0.5em 1.35em 0.5em;
 				border: 0;
 			}
@@ -2682,10 +2680,10 @@ Flame (Bright Orange)			#EC4E20
 
 		/* Header */
 		/* Used when resolution <= 1280 px */
+		
+		/*#header {
 
-			#header {
-				padding: 1.5em 0 0 0;
-			}
+			} */
 
 				#header h1 {
 					padding: 0 0 1em 0;
