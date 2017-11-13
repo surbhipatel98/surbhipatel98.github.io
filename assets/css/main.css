@@ -1916,7 +1916,7 @@ Flame (Bright Orange)			#EC4E20
 	header p {
 		color: #999;
 		font-size: 1.25em;
-		position: fixed;
+		position: relative;
 		margin-top: -1.25em;
 		margin-bottom: 2.25em;
 	}
