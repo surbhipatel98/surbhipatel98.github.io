@@ -40,6 +40,7 @@ Flame (Bright Orange)			#EC4E20
 
 	body {
 		line-height: 1;
+		
 	}
 
 	ol, ul {
@@ -2382,6 +2383,10 @@ Flame (Bright Orange)			#EC4E20
 			background-color: #37c0fb;
 			background-image: url("images/bg01.png");
 		}
+		#content{
+ 	                height: 500px;
+  			overflow: scroll;  
+}
 
 		#nav > ul {
 			margin: 0;
