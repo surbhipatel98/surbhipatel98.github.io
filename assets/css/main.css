@@ -40,7 +40,7 @@ Flame (Bright Orange)			#EC4E20
 
 	body {
 		line-height: 1;
-		overflow:hidden;
+		
 	}
 
 	ol, ul {
@@ -1916,7 +1916,7 @@ Flame (Bright Orange)			#EC4E20
 	header p {
 		color: #999;
 		font-size: 1.25em;
-		position: relative;
+		position: fixed;
 		margin-top: -1.25em;
 		margin-bottom: 2.25em;
 	}
