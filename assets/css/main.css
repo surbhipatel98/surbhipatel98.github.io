@@ -2389,8 +2389,9 @@ Flame (Bright Orange)			#EC4E20
 
 		#nav > ul {
 			margin: 0;
-			margin-right: -15em;
-		}
+			padding-right: 1em;
+			text-align: right;
+}
 			
 			#nav > ul > h1 {
 				color: #fff;
